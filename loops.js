@@ -38,6 +38,31 @@ for(let i = 0; i < cars.length; i++){
 }
 
 // FOREACH-> best for arrays
-cars.forEach(function(car){
-    console.log(car)
-})
+cars.forEach(function(car, index){
+    console.log(`${index}:${car}`)
+});
+
+
+// MAP
+const users = [
+    {id: 1, name: 'John'},
+    {id: 2, name: 'Alvin'},
+    {id: 3, name: 'Sarah'},    
+]
+
+const ids = users.map(funtion(user{
+    return users.id
+}))
+
+console.log(ids)
+
+//FOR_IN loop
+const user = {
+    firstName: 'John',
+    lastName: 'Ling',
+    age: 40,
+}
+
+for(let x in user){
+    console.log(`${x} : ${user[x]}`)
+}
