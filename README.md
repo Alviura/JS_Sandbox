@@ -1,4 +1,4 @@
-# JS_Sandbox
+# <h1> JS_Sandbox
 
 JavaScript Beginer's Guide with Code Samples
 Basic syntax
